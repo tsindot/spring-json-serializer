@@ -4,8 +4,8 @@ import java.util.List;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.outboundengine.json.BasketItemDeserializer;
-import com.outboundengine.json.BasketItemSerializer;
+import com.outboundengine.json.SyncContactDeserializer;
+import com.outboundengine.json.SyncContactSerializer;
 
 /**
  * 
