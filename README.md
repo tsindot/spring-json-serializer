@@ -49,7 +49,7 @@ curl -X PATCH \
 ```
 
 ## Alternative Approach: Using @JsonSerialize and @JsonDeserialize
-A short cut sets the serializer and deserializer by adding the following annotations to the BasketItem class:
+A short cut sets the serializer and deserializer by adding the following annotations to the SyncContact class:
 
 ```java
 @JsonDeserialize(using = SyncContactDeserializer.class)
